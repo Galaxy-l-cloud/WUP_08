@@ -81,6 +81,9 @@ Best to worst:
 4.AGE        ARsqrd: 0.55    RST: 81.47   
 
 
+Headwthmodel would have a high Residual standard error of 76.41, being lower than the agemodel 81.47 but not low enough for the headlenmodel 67.81 Residual standard error.
+
+
 ## Model WEIGHT ~ LENGTH
 
 ```{r}
