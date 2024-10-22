@@ -100,8 +100,7 @@ Best to worst:
 3.LENGTH     ARsqrd: 0.74    RST: 61.83   
 4.HEADLEN    ARsqrd: 0.69    RST: 67.81      
 5.HEADWTH    ARsqrd: 0.60    RST: 76.41     
-6.AGE        ARsqrd: 0.55    RST: 81.47    
-
+6.AGE        ARsqrd: 0.55    RST: 81.47     
 
 
 
