@@ -101,7 +101,8 @@ Best to worst:
 4.HEADWTH    ARsqrd: 0.60    RST: 76.41      
 5.AGE        ARsqrd: 0.55    RST: 81.47    
 
-
+The lengthmodel has a ARsqrd of 0.74 being higher than the headlenmodel 0.69
+but not better than the simp model of 0.87.
 
 
 ## Model WEIGHT ~ CHEST
