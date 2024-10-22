@@ -44,10 +44,19 @@ abline(headlenmodel)
 summary.lm(headlenmodel)
 ```
 
+Best to worst:
+
+1.NECK
+2.HEADLEN
+3.AGE
 
 
-
-
+```{r}
+headwthmodel <- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~HEADWTH,data=bears)
+abline(headwthmodel)
+summary.lm(headwthmodel)
+```
 
 
 
