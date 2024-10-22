@@ -42,6 +42,8 @@ Best to worst:
 1.NECK  ARsqrd: 0.87    RST: 43.91  
 2.AGE   ARsqrd: 0.55    RST: 81.47     
 
+The agemodel graph shows its points to be far away from the line, while the simp graph has plots closer to it.
+
 ```{r}
 headlenmodel <- lm(WEIGHT~HEADLEN,data=bears)
 plot(WEIGHT~HEADLEN,data=bears)
