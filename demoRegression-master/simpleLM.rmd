@@ -52,7 +52,7 @@ Best to worst:
 
 1.NECK       ARsqrd: 0.87    RST: 43.91  
 2.HEADLEN    ARsqrd: 0.69    RST: 67.81    
-3.AGE        ARsqrd: 0.55    RST: 81.47  
+3.AGE        ARsqrd: 0.55    RST: 81.47    
 
 
 ```{r}
