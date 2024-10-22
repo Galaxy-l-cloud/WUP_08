@@ -37,7 +37,12 @@ plot(WEIGHT~AGE,data=bears)
 abline(agemodel)
 summary.lm(agemodel)
 ```
-
+```{r}
+headlenmodel <- lm(WEIGHT~HEADLEN,data=bears)
+plot(WEIGHT~HEADLEN,data=bears)
+abline(headlenmodel)
+summary.lm(headlenmodel)
+```
 
 
 
