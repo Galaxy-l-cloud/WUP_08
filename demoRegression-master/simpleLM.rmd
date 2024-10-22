@@ -37,7 +37,10 @@ plot(WEIGHT~AGE,data=bears)
 abline(agemodel)
 summary.lm(agemodel)
 ```
+Best to worst:
 
+1.NECK  ARsqrd: 0.87    RST: 43.91  
+2.AGE   ARsqrd: 0.55    RST: 81.47     
 
 ```{r}
 headlenmodel <- lm(WEIGHT~HEADLEN,data=bears)
@@ -76,11 +79,11 @@ summary.lm(lengthmodel)
 
 Best to worst:
 
-1.NECK       ARsqrd: 0.87    RST: 43.91  
-2.LENGTH     ARsqrd: 0.74    RST: 61.83 
-3.HEADLEN    ARsqrd: 0.69    RST: 67.81    
-4.HEADWTH    ARsqrd: 0.60    RST: 76.41   
-5.AGE        ARsqrd: 0.55    RST: 81.47  
+1.NECK       ARsqrd: 0.87    RST: 43.91    
+2.LENGTH     ARsqrd: 0.74    RST: 61.83   
+3.HEADLEN    ARsqrd: 0.69    RST: 67.81      
+4.HEADWTH    ARsqrd: 0.60    RST: 76.41     
+5.AGE        ARsqrd: 0.55    RST: 81.47    
 
 
 ```{r}
@@ -89,6 +92,23 @@ plot(WEIGHT~CHEST,data=bears)
 abline(chestmodel)
 summary.lm(chestmodel)
 ```
+
+Best to worst:
+
+1.CHEST.     ARsqrd: 0.92    RST: 33.08    
+2.NECK       ARsqrd: 0.87    RST: 43.91    
+3.LENGTH     ARsqrd: 0.74    RST: 61.83   
+4.HEADLEN    ARsqrd: 0.69    RST: 67.81      
+5.HEADWTH    ARsqrd: 0.60    RST: 76.41     
+6.AGE        ARsqrd: 0.55    RST: 81.47    
+
+
+
+
+
+
+
+
 
 
 
