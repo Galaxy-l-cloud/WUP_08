@@ -124,7 +124,8 @@ Best to worst:
 6.AGE        ARsqrd: 0.55    RST: 81.47     
 
 
-
+The best model is the Chest as the Adjuste Squared is very high and the Residual standard error is low. This is seen with the chestmodel graph having the other plots close
+the line. As we down the list of worst to best we will see the plots being farther and farther away line made.
 
 
 
